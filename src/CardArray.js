@@ -43,7 +43,7 @@ const CardArray = ({robots})=>{
             <h4>Username: @{robots[modalInfo].username }</h4>
             <h4>Email: {robots[modalInfo].email }</h4>
             <h4>Address: {robots[modalInfo].address.suite } , {robots[modalInfo].address.street} , {robots[modalInfo].address.city } , {robots[modalInfo].address.zipcode }</h4>
-            <h4>phone: @{robots[modalInfo].name }</h4>
+            <h4>phone: {robots[modalInfo].phone }</h4>
             <button onClick={closeModal}
             style={{
                 position:'absolute',
