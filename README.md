@@ -3,7 +3,7 @@
 
 In the project directory
 Before anything you should run 
-### 'npm i'
+### `npm i`
 You can run the project by:
 ### `npm start`
 
